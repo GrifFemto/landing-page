@@ -63,7 +63,6 @@ body {
 .header_undernav h1{
     display:flex;
     font-weight: 900;
-    
 }
 
 .header_undernav p{
@@ -81,10 +80,123 @@ body {
     flex-wrap: wrap;
 }
 
-.button{
+.button,.signup{
     background-color:#3882F6 ;
     color:white;
-    max-width: 10vh;
-    max-height: 10vh;
+    min-width: 7vw;
+    min-height: 5vh;
+    border-radius: 12px;
+}
+
+.signup{
+    border-color: white;
+}
+
+.cards{
+    display:flex;
+    border:solid;
+    border-color: aqua;
+    border-radius: 15%;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
     
+}
+
+.secondpart{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+.secondpart_title{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+
+.secondpart_title h2{
+    font-weight :900;
+}
+
+.secondpart_cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.secondpart_paragraph{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 10px;
+}
+
+.secondpart_paragraph p{
+    text-align: center;
+    font-size: 12px;
+    max-width: 10vw;
+}
+
+.thirdpart{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    flex-wrap: wrap;
+}
+
+.thirpart_maintext{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thirdpart_legend{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fourthpart{
+    display:flex;
+    padding: 40px;
+    justify-content:center;
+}
+
+.fourthpart_contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:5px;
+    background-color:#3882F6 ;
+    color: white;
+    width: 70vw;
+    height: 20vh;
+    flex-grow: auto;
+    padding-left: 5vw;
+    padding-top:5vh;
+    border-radius: 12px;
+}
+
+.fourthpart_signup{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fifthpart{
+    padding:10px;
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
